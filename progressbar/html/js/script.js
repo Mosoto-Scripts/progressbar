@@ -16,7 +16,7 @@ $('document').ready(function () {
                     $(".progress-container").fadeOut('fast', function () {
                         $('#progress-bar').removeClass('cancellable');
                         $("#progress-bar").css("width", 0);
-                        $.post('http://mst-progressbar/FinishAction', JSON.stringify({
+                        $.post('http:/progressbar/FinishAction', JSON.stringify({
                         })
                         );
                     })
@@ -33,7 +33,7 @@ $('document').ready(function () {
         cancelledTimer = setTimeout(function () {
             $(".progress-container").fadeOut('fast', function () {
                 $("#progress-bar").css("width", 0);
-                $.post('http://mst-progressbar/CancelAction', JSON.stringify({
+                $.post('http://progressbar/CancelAction', JSON.stringify({
                 })
                 );
             });
