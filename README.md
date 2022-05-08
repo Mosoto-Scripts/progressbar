@@ -6,7 +6,7 @@ A simple action bar resource which allows actions to be visually displayed to th
 ## Use
 To use, you just need to add a TriggerEvent into your client script where you're wanting the event to happen. Example TriggerEvent call;
 
-    exports['mst-progressbar']:Progress({
+    exports['progressbar']:Progress({
         name = "unique_action_name",
         duration = 10000,
         label = "Action Label",
