@@ -1,7 +1,7 @@
 # Progressbar
 A simple action bar resource which allows actions to be visually displayed to the player and provides a callback function so actions can be peformed if the event was cancelled or not.
 
-![Image of Progressbar](https://i.imgur.com/3gQN1pL.png)
+![Image of Progressbar](https://i.imgur.com/4E6W5AD.jpg)
 
 ## Use
 To use, you just need to add a TriggerEvent into your client script where you're wanting the event to happen. Example TriggerEvent call;
